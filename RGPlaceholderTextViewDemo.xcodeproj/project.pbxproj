@@ -14,7 +14,7 @@
 		20A8617E1B21480300F1D050 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A8617D1B21480300F1D050 /* Images.xcassets */; };
 		20A861811B21480300F1D050 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A8617F1B21480300F1D050 /* LaunchScreen.xib */; };
 		20A8618D1B21480400F1D050 /* RGPlaceholderTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8618C1B21480400F1D050 /* RGPlaceholderTextViewDemoTests.m */; };
-		20A861991B21482A00F1D050 /* RGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A861981B21482A00F1D050 /* RGPlaceholderTextView.m */; };
+		20A8619D1B21565C00F1D050 /* RGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A8619C1B21565C00F1D050 /* RGPlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		20A861861B21480400F1D050 /* RGPlaceholderTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGPlaceholderTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A8618B1B21480400F1D050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A8618C1B21480400F1D050 /* RGPlaceholderTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGPlaceholderTextViewDemoTests.m; sourceTree = "<group>"; };
-		20A861971B21482A00F1D050 /* RGPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGPlaceholderTextView.h; sourceTree = "<group>"; };
-		20A861981B21482A00F1D050 /* RGPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGPlaceholderTextView.m; sourceTree = "<group>"; };
+		20A8619B1B21565C00F1D050 /* RGPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGPlaceholderTextView.h; sourceTree = "<group>"; };
+		20A8619C1B21565C00F1D050 /* RGPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		20A8616F1B21480300F1D050 /* RGPlaceholderTextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				20A861961B21481F00F1D050 /* RGPlaceholderTextView */,
+				20A8619A1B21565C00F1D050 /* RGPlaceholderTextView */,
 				20A861741B21480300F1D050 /* AppDelegate.h */,
 				20A861751B21480300F1D050 /* AppDelegate.m */,
 				20A861771B21480300F1D050 /* ViewController.h */,
@@ -123,14 +123,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		20A861961B21481F00F1D050 /* RGPlaceholderTextView */ = {
+		20A8619A1B21565C00F1D050 /* RGPlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
-				20A861971B21482A00F1D050 /* RGPlaceholderTextView.h */,
-				20A861981B21482A00F1D050 /* RGPlaceholderTextView.m */,
+				20A8619B1B21565C00F1D050 /* RGPlaceholderTextView.h */,
+				20A8619C1B21565C00F1D050 /* RGPlaceholderTextView.m */,
 			);
 			path = RGPlaceholderTextView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -232,9 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20A861991B21482A00F1D050 /* RGPlaceholderTextView.m in Sources */,
 				20A861791B21480300F1D050 /* ViewController.m in Sources */,
 				20A861761B21480300F1D050 /* AppDelegate.m in Sources */,
+				20A8619D1B21565C00F1D050 /* RGPlaceholderTextView.m in Sources */,
 				20A861731B21480300F1D050 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +432,7 @@
 				20A861921B21480400F1D050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20A861931B21480400F1D050 /* Build configuration list for PBXNativeTarget "RGPlaceholderTextViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				20A861951B21480400F1D050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
